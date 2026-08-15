@@ -5,7 +5,7 @@ import requests
 import streamlit as st
 
 ROOT = Path(__file__).resolve().parent.parent
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://online-payment-fraud-detection-k0ne.onrender.com"
 OUTPUT_DIR = ROOT / "outputs"
 MODEL_METADATA = ROOT / "models" / "model_metadata.json"
 
