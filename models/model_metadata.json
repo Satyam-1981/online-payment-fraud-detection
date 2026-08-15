@@ -1,0 +1,32 @@
+{
+  "model": "Random Forest",
+  "dataset": "PaySim",
+  "dataset_source": "Kaggle: ealaxi/paysim1",
+  "dataset_rows": 6362620,
+  "fraud_count": 8213,
+  "fraud_rate": 0.001290820448180152,
+  "features": [
+    "type",
+    "amount",
+    "oldbalanceOrg",
+    "newbalanceOrig",
+    "oldbalanceDest",
+    "newbalanceDest",
+    "errorBalanceOrig",
+    "errorBalanceDest"
+  ],
+  "transaction_types": [
+    "CASH_IN",
+    "CASH_OUT",
+    "DEBIT",
+    "PAYMENT",
+    "TRANSFER"
+  ],
+  "risk_threshold": 0.5,
+  "test_accuracy": 0.9999756389663378,
+  "test_precision": 0.9832134292565947,
+  "test_recall": 0.9981740718198417,
+  "test_f1": 0.9906372697070371,
+  "test_roc_auc": 0.9994985621763173,
+  "training_time_seconds": 1008.22
+}
